@@ -44,7 +44,7 @@
                 display: block;
                 text-align: center;
             }
-            
+
             img {
                 width: 400px;
                 height: 265px;
@@ -61,6 +61,18 @@
                 width: auto;
                 height: auto;
                 max-width: 90vw;
+            }
+
+            article:has(.Imagem) {
+                background: none;
+                border: none;
+                padding: 0;
+                display: block;
+            }
+
+            article:has(.Imagem) .Imagem {
+                margin-left: auto;
+                margin-right: auto;
             }
         </style>
     </header>
