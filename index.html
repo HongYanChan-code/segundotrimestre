@@ -37,21 +37,15 @@
                 border-radius: 10px;
             }
 
-            .Imagem {
-                display: block;
-                margin: 30px auto;
-                padding: 0;
-                max-width: none;
-                background: transparent;
-                border: none;
-                border-radius: 0;
-            }
-
             article:has(.Imagem) {
                 background: none;
                 border: none;
                 padding: 0;
                 display: block;
+            }
+
+            article:has(.Imagem) .Imagem {
+                margin: 30px auto;
             }
 
 
@@ -71,7 +65,6 @@
                 width: auto;
                 height: auto;
                 max-width: 90vw;
-                margin: 0 auto
             }
         </style>
     </header>
